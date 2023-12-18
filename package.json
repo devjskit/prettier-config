@@ -1,0 +1,20 @@
+{
+  "name": "prettier-config-devjskit",
+  "version": "2.0.0",
+  "description": "devjskit prettier config",
+  "homepage": "https://devjskit.github.io/prettier-config",
+  "bugs": "https://github.com/devjskit/prettier-config/issues",
+  "license": "MIT",
+  "author": "Billgo <hi@billgo.me>",
+  "main": "index.json",
+  "dependencies": {
+    "prettier-plugin-organize-imports": "^3.2.4"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
